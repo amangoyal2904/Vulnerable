@@ -1,0 +1,238 @@
+body {
+    margin: 0px;
+    background-color:rgb(236, 237, 255);
+    ;
+}
+
+.navbar {
+    background-color: rgb(68, 4, 68);
+    margin: 0px;
+    overflow:auto;
+}
+
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+    float: left;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-left: 28px;
+    padding: 5px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    border-color: yellowgreen;
+}
+.navbar img{
+    height:40px;
+    width:50 px;
+    margin:0px;
+}
+
+#home {
+    margin-left: 5px;
+    font-size: x-large;
+}
+.searc{
+    display: inline-block;
+}
+
+
+
+.dropdown .dropbtn {
+    font-size: x-large;
+    border: none;
+    outline: none;
+    color: rgb(255, 254, 254);
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    opacity:0.7;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(206, 195, 206);
+    min-width: 234.54px;
+    margin-top: 11px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    border-bottom: solid;
+    float: none;
+    color: rgb(206, 12, 12);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: rgb(112, 67, 67);
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.middle {
+    margin: auto;
+    float: left;
+    background-color: white;
+    height: 600px;
+    width:600px;
+}
+.contain{
+    width:1200px;
+    background-color: white;
+    margin:20px auto;
+    overflow: auto;
+}
+
+.searc input{
+        margin-left: 425px;
+        margin-top: 5px;
+        border-radius: 15px;
+        padding:10px;
+ }
+ .searc button{
+        margin-top: 8px;
+        margin-left:10px;
+        border-radius: 5px;
+        padding:5px;
+        font-size:20px;
+        border-width: 0px;
+        background-color: rgb(56, 102, 56);
+        cursor:pointer
+ }
+ .searc button:hover{
+     background-color: lavenderblush;
+     text-decoration: mediumblue;
+ }
+ #username{
+    
+     margin:50px 0px;
+     margin-bottom:0px;
+     margin-left:175px;
+     overflow:auto;
+  
+ }
+ #pass{
+     margin-left:175px;
+     overflow:auto;
+ }
+ .side{
+     margin-top:30px;
+     margin-bottom:0px;
+     height:40px;
+     border-width:1px;
+     border-style:solid;
+     border-color: rgb(240, 237, 237);
+     float:left;
+ }
+ #username input{
+     margin-top:30px;
+     border-width:1px;
+     padding:12px;
+     border-color: rgb(240, 237, 237);
+ }
+ #pass input{
+     margin-top:30px;
+     border-width:1px;
+     padding:12px;
+     border-color: rgb(240, 237, 237);
+ }
+ .remem{
+     margin-top:25px;
+     font-size:16px;
+     margin-left:175px;
+     color:grey;
+     
+ }
+ .remem input{
+     cursor: pointer;
+ }
+.remem button{
+    margin-left:55px;
+    padding:11px 14px;
+    background-color: rgb(46, 128, 196);
+    border-style: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+.reg{
+    margin-top:15px;
+    font-size:16px;
+    margin-left: 175px;
+}
+.reg a{
+        text-decoration:none;
+}
+.or{
+    width:28%;
+    margin-top:30px;
+    float:left;
+}
+#facebook{
+    
+    margin:50px 0px;
+    margin-bottom:0px;
+    margin-left:200px;
+    overflow:auto;
+ 
+}
+.sider{
+     /* margin-top:50px;
+     margin-bottom:0px; */
+     height:40px;
+     border: 1px solid rgb(92, 94, 199) ;
+     float:left;
+     margin:0px;
+ }
+ #facebook button{
+     padding:11px 13px;
+     background-color:  rgb(128, 129, 202);
+     border-left: unset;
+     margin-top: 50 px;
+     color:white;
+     cursor: pointer;
+ }
+ #gmail{
+     margin:25px 0px;
+     margin-left:200px;
+     overflow:auto;
+ }
+ #gmail p{
+     height:35px;
+     border: 1px solid red;
+     padding-top: 5px;
+ }
+ #gmail button{
+     padding:11px 25px;
+     background-color:  rgb(219, 91, 91);
+     border-left: unset;
+     margin-top: 50 px;
+     color:white;
+     cursor: pointer;
+ }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li style="margin-left:0px;height:40px;">
+                    <img src="logo.jpg" alt="js" >
+                </li>
+                <li id="home"><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropbtn" href="#">Types of Diamonds</a>
+                    <div class="dropdown-content">
+                        <a href="#">Marquise</a>
+                        <a href="#">Emerald</a>
+                        <a href="#">Radiant</a>
+                        <a href="#">Asscher</a>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <form method="GET" action="low.php">
+                <div class="searc" style="display: inline-block;">
+                   <div style="float: left;"> <input type="text"  size="23"  name="name" placeholder="  Search this Website"></div>
+                   <div style="float: left;"> <button type="submit" ><strong>Search</strong></button></div>
+                </div>
+                
+            </form>
+        </div>
+    </header>
+    <div class="contain" >
+        <div class="middle"> <img src="logo.jpg" height=600 width=600 ></div>
+        <div class="middle">
+            <form method="GET" action="low1.php">
+        <div id="username">
+            <p class="side">
+                <img src="logo1.png" width=40 height=40 alt="error">
+            </p>
+            <input type="text" size="23" name="username" placeholder="Username or email"> </div>
+        <div id="pass">
+            <p class ="side" >
+                <img src="logo2.png" width=40 height=40 alt="error">
+            </p>
+            <input type="text" size="23" name="password"  placeholder="Password">
+        </div>
+        <div class="remem">
+            <input type="checkbox">Remember me
+            <button type="submit">LOGIN</button>
+        </div></form>
+        <div class="reg">
+            <a href="#" style="color:skyblue;">Register Now</a>
+            <a href="#" style="color:rgb(131, 117, 117);margin-left:70px;">Forgot password?</a>
+        </div>
+        <div style="overflow: auto;">
+        <div style="width:17%;margin-top:30px;float:left;"></div>
+        <div class="or">
+            <hr>
+        </div>
+        <div style="width:4%;float:left;margin-top:28px;text-align:center ;">or</div>
+        <div class="or"><hr></div>
+        <div style="width:17%;margin-top:30px;float:left;"></div></div>
+        <div id="facebook">
+            <p class="sider">
+                <img src="fblogo.png" width=40 height=40>
+            </p>
+            <button type="button">Login with Facebook</button>
+         </div>
+         <div id="gmail">
+             <p class="sider">
+                 <img src="google.jpg" width=40 height=30>
+             </p>
+             <button type="button">Login with Gmail</button>
+         </div>
+
+        </div></div>
+        
+
+</body>
+
+</html>
